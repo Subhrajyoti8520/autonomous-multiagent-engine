@@ -1,0 +1,1 @@
+FROM ./data/models/specialist_lora/specialist-pricer-q4_k_m.gguf

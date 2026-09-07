@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ] 
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest #boots up a fresh, blank VM
+    steps:
+      - name: Checkout repository 
+        uses: actions/checkout@v4 #downloads your repo's code into VM workspace
+
+      - name: Set up Python
+        uses: actions/setup-python@v5 #install py 3.10 and configures env path so pip commands work
+        with:
+          python-version: '3.10'
+
+      - name: Install Ruff
+        run: pip install ruff
+
+      - name: Run Linting
+        run: ruff check src/ #executes linter
+
+    docker-check:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout repository
+          uses: actions/checkout@v4
+
+        - name: Build Docker images
+          run: docker compose build
