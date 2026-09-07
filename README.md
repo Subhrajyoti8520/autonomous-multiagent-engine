@@ -6,18 +6,11 @@
     <i>An asynchronous, multi-agent AI framework engineered for real-time deal discovery, valuation, and arbitrage notification.</i>
   </p>
 
-  <!-- Live Pulsing Status Banner -->
-  <p align="left">
-    <a href="https://github.com/Subhrajyoti8520/autonomous_multiagent_engine">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&multiline=false&width=560&lines=⚡+LIVE+SYSTEM:+10+Agents+Scanning+Feeds...;🧠+Tripartite+Consensus+Engine+Active...;🎯+Real-Time+Arbitrage+Alerts+Online..." alt="Typing Dynamic Status" />
-    </a>
-  </p>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=560&lines=⚡+LIVE+SYSTEM%3A+10+Agents+Scanning+Feeds...;🧠+Tripartite+Consensus+Engine+Active...;🎯+Real-Time+Valuation+Alerts+Online...)](https://git.io/typing-svg)
 
   <!-- Primary CI & Runtime Badges -->
   [![CI Pipeline](https://github.com/Subhrajyoti8520/autonomous_multiagent_engine/actions/workflows/ci.yml/badge.svg)](https://github.com/Subhrajyoti8520/autonomous_multiagent_engine/actions)
-  [![CI Pipeline](https://img.shields.io/badge/CI-Passing-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/Subhrajyoti8520/autonomous_multiagent_engine)
   [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
   [![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
   [![License: MIT](https://img.shields.io/badge/License-MIT-F59E0B?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
