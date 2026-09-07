@@ -8,13 +8,13 @@ on:
 
 jobs:
   lint:
-    runs-on: ubuntu-latest #boots up a fresh, blank VM
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository 
-        uses: actions/checkout@v4 #downloads your repo's code into VM workspace
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5 #install py 3.10 and configures env path so pip commands work
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
@@ -22,13 +22,13 @@ jobs:
         run: pip install ruff
 
       - name: Run Linting
-        run: ruff check src/ #executes linter
+        run: ruff check src/
 
-    docker-check:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout repository
-          uses: actions/checkout@v4
+  docker-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-        - name: Build Docker images
-          run: docker compose build
+      - name: Build Docker images
+        run: docker compose build
